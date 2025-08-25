@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pabasara Ranawaka | Portfolio</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Icons + Animations (CDN) -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <a href="#" class="logo">Pabasara Ranawaka</a>
+    <i class="bx bx-menu" id="menu-icon" aria-label="Menu"></i>
+    <nav class="navbar" aria-label="Primary">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home / Landing -->
+  <section class="home" id="home" aria-label="Home">
+    <!-- LEFT: Full-height image -->
+    <div class="home-img" aria-hidden="true">
+      <!-- Replace with your image -->
+      <img src="myphoto.jpg" alt="Your portrait" />
+    </div>
+
+    <!-- RIGHT: Intro text -->
+    <div class="home-content">
+      <h5 class="eyebrow">Hello, I’m</h5>
+      <h1 class="title">Pabasara Ranawaka</h1>
+      <h2 class="subtitle">I’m a <span class="typed-role"></span></h2>
+      <p class="tagline">
+        Passionate <strong>Web Developer</strong> delivering clean, responsive, and accessible UI with modern tech.
+      </p>
+
+      <div class="cta-row">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+
+      <div class="social-media" aria-label="Social Links">
+        <a href="https://github.com/PabasaraRanawaka" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/yourprofile" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+        <a href="mailto:gaganipabasara46@gmail.com" aria-label="Email"><i class="bx bx-mail-send"></i></a>
+        <a href="https://wa.me/94704139918" aria-label="WhatsApp" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about" aria-label="About me">
+    <div class="about-img" aria-hidden="true">
+      <!-- You can use a different image here if you want -->
+      <img src="myphoto.jpg" alt="Your portrait close-up" />
+    </div>
+
+    <div class="about-content">
+      <h2 class="section-title"><span>About Me</span></h2>
+      <p>
+        I’m a <strong>Computer Science student</strong> focused on front-end engineering and UI design.
+        I enjoy crafting delightful user experiences using HTML, CSS, and JavaScript (and sometimes React).
+        My goal is to build reliable, accessible, and visually-polished web apps.
+      </p>
+      <p>
+        When I’m not coding, I explore design systems, prototyping, and performance optimization.
+      </p>
+      
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects" aria-label="Projects">
+    <h2 class="section-title"> <span>Latest Projects</span></h2>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <article class="project-card">
+        <img src="Clock.png" alt="Screenshot of Project 1" />
+        <div class="project-body">
+          <h3>A Digital Clock</h3>
+          <p>A real-time digital clock displaying hours , minutes , seconds , and AM/PM.</p>
+          <ul class="tech-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://pabasararanawaka.github.io/A-Digital-Clock/" class="link">Live Demo</a>
+            <a href="https://github.com/PabasaraRanawaka/A-Digital-Clock.git" class="link">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <img src="ToDo App.png" alt="Screenshot of Project 2" />
+        <div class="project-body">
+          <h3>ToDo App</h3>
+          <p>A simple task manager that allows users to add , delete , and mark tasks as completed.</p>
+          <ul class="tech-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://pabasararanawaka.github.io/ToDo-App/" class="link">Live Demo</a>
+            <a href="https://github.com/PabasaraRanawaka/ToDo-App.git" class="link">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card">
+        <img src="Simple Cal.png" alt="Screenshot of Project 3" />
+        <div class="project-body">
+          <h3>Simple Calculator</h3>
+          <p>A calculator that supports basic operations along with x² , sin , cos , tan , and log functions.</p>
+          <ul class="tech-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://pabasararanawaka.github.io/Simple-Calculator/" class="link">Live Demo</a>
+            <a href="https://github.com/PabasaraRanawaka/Simple-Calculator.git" class="link">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="project-card">
+        <img src="Game.png" alt="Screenshot of Project 4" />
+        <div class="project-body">
+          <h3>Tic Tac Toe Game</h3>
+          <p>A two-player Tic Tac Toe game with automatic computer moves for the opponent.</p>
+          <ul class="tech-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://pabasararanawaka.github.io/Tic-Tac-Toe-Game/" class="link">Live Demo</a>
+            <a href="https://github.com/PabasaraRanawaka/Tic-Tac-Toe-Game.git" class="link">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 5 -->
+      <article class="project-card">
+        <img src="Task Tracker.png" alt="Screenshot of Project 5" />
+        <div class="project-body">
+          <h3>Task Tracker App</h3>
+          <p>An app to add tasks , view all , track pending and completed tasks , and delete them easily.</p>
+          <ul class="tech-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://pabasararanawaka.github.io/Task-Tracker-App/" class="link">Live Demo</a>
+            <a href="https://github.com/PabasaraRanawaka/Task-Tracker-App.git" class="link">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 6 -->
+      <article class="project-card">
+        <img src="portfolio.png" alt="Screenshot of Project 6" />
+        <div class="project-body">
+          <h3>Personal Portfolio Website</h3>
+          <p>A modern and responsive portfolio website to showcase projects , skills , and contact details.</p>
+          <ul class="tech-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://pabasararanawaka.github.io/Personal-Portfolio-Website/" class="link">Live Demo</a>
+            <a href="https://github.com/PabasaraRanawaka/Personal-Portfolio-Website.git" class="link">GitHub</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills" aria-label="Skills">
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <ul class="skills-grid" role="list">
+      <li><i class="bx bx-code-alt"></i> HTML5</li>
+      <li><i class="bx bx-code-curly"></i> CSS3</li>
+      <li><i class="bx bx-code"></i> JavaScript</li>
+      <li><i class="bx bxl-react"></i> React</li>
+      <li><i class="bx bxl-figma"></i> Figma</li>
+      <li><i class="bx bx-git-branch"></i> Git & GitHub</li>
+      <li><i class="bx bx-mobile-alt"></i> Responsive Design</li>
+      <li><i class="bx bx-bug"></i> QA / Testing</li>
+      <li><i class="bx bx-network-chart"></i> Networking Basics</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact" aria-label="Contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form" id="contact-form" action="#" method="post" novalidate>
+      <div class="form-row">
+        <input type="text" id="name" name="name" placeholder="Full Name" required />
+        <input type="email" id="email" name="email" placeholder="Email Address" required />
+      </div>
+      <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+      <p id="form-message" class="form-message" aria-live="polite"></p>
+    </form>
+
+    <div class="contact-links">
+      <a href="mailto:youremail@example.com"><i class="bx bx-mail-send"></i> Email</a>
+      <a href="https://github.com/PabasaraRanawaka"><i class="bx bxl-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/yourprofile"><i class="bx bxl-linkedin"></i> LinkedIn</a>
+      <a href="https://wa.me/94704139918"><i class="bx bxl-whatsapp"></i> WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" aria-label="Footer">
+    <p>© 2025 Pabasara Ranawaka — Built with HTML , CSS & JS</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
